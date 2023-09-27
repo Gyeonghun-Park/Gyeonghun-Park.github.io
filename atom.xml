@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>King Potato</title>
+  <icon>http://example.com/icon.png</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-09-27T06:04:56.814Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Gyeonghun Park</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Framer Motion으로 텍스트 애니메이션 만들기</title>
+    <link href="http://example.com/2023/09/24/typing-animation/"/>
+    <id>http://example.com/2023/09/24/typing-animation/</id>
+    <published>2023-09-24T10:11:09.000Z</published>
+    <updated>2023-09-27T06:04:56.814Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;안녕하세요 감자입니다. 오늘은 Framer Motion을 이용해서 타이핑 애니메이션을 추가하는 방법을 알아보겠습니다.&lt;/p&gt;
+&lt;div style=&quot;position: relative; height: 500px&quot;&gt;
+ </summary>
+        
+      
+    
+    
+    
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+    <category term="Framer Motion" scheme="http://example.com/tags/Framer-Motion/"/>
+    
+  </entry>
+  
+</feed>

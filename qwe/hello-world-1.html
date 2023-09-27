@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang=kr>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="Block Elements Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules Table   Span Elements Links Emphasis Code Images Strikethrough   Miscellaneous Automatic Links Backsla">
+<meta property="og:type" content="website">
+<meta property="og:title" content="An overview of all Markdown elements">
+<meta property="og:url" content="http://example.com/qwe/hello-world-1.html">
+<meta property="og:site_name" content="King Potato">
+<meta property="og:description" content="Block Elements Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules Table   Span Elements Links Emphasis Code Images Strikethrough   Miscellaneous Automatic Links Backsla">
+<meta property="og:locale">
+<meta property="og:image" content="http://example.com/images/logo.png">
+<meta property="article:published_time" content="2023-07-31T15:11:09.000Z">
+<meta property="article:modified_time" content="2023-09-24T13:20:28.208Z">
+<meta property="article:author" content="Gyeonghun Park">
+<meta property="article:tag" content="linux">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/logo.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>An overview of all Markdown elements</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F18PTQ6CCF"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F18PTQ6CCF');
+  </script>
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="King Potato" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+    <div class="content index py4 ">
+        
+          <header id="header">
+  <a class="u-url u-uid" href="/">
+  
+    
+      <img id="logo" alt class="u-logo" src="/images/logo.png" />
+    
+  
+    <div id="title">
+      <h1 class="p-name">King Potato</h1>
+    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-2x"></i></a>
+      </li>
+      <!--
+     --><li><a href="/">홈</a></li><!--
+   --><!--
+     --><li><a href="/about/">소개</a></li><!--
+   --><!--
+     --><li><a href="/archives/">글 목록</a></li><!--
+   --><!--
+     --><li><a target="_blank" rel="noopener" href="http://github.com/Gyeonghun-Park">프로젝트</a></li><!--
+   --><!--
+     --><li><a href="/categories/">카테고리</a></li><!--
+   --><!--
+     --><li><a href="/search/">검색</a></li><!--
+   -->
+    </ul>
+  </div>
+</header>
+
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+
+  <div class="content" itemprop="articleBody">
+      
+          <ul>
+<li><a href="#Block-Elements">Block Elements</a><ul>
+<li><a href="#Paragraphs-and-Line-Breaks">Paragraphs and Line Breaks</a></li>
+<li><a href="#Headers">Headers</a></li>
+<li><a href="#Blockquotes">Blockquotes</a></li>
+<li><a href="#Lists">Lists</a></li>
+<li><a href="#Code-Blocks">Code Blocks</a></li>
+<li><a href="#Horizontal-Rules">Horizontal Rules</a></li>
+<li><a href="#Table">Table</a></li>
+</ul>
+</li>
+<li><a href="#Span-Elements">Span Elements</a><ul>
+<li><a href="#Links">Links</a></li>
+<li><a href="#Emphasis">Emphasis</a></li>
+<li><a href="#Code">Code</a></li>
+<li><a href="#Images">Images</a></li>
+<li><a href="#Strikethrough">Strikethrough</a></li>
+</ul>
+</li>
+<li><a href="#Miscellaneous">Miscellaneous</a><ul>
+<li><a href="#Automatic-Links">Automatic Links</a></li>
+<li><a href="#Backslash-Escapes">Backslash Escapes</a></li>
+</ul>
+</li>
+<li><a href="#Inline-Html">Inline HTML</a></li>
+</ul>
+<p>This post gives an overview of all Markdown elements and how they are rendered by this theme.</p>
+<h2 id="Block-Elements"><a href="#Block-Elements" class="headerlink" title="Block Elements"></a>Block Elements</h2><h3 id="Paragraphs-and-Line-Breaks"><a href="#Paragraphs-and-Line-Breaks" class="headerlink" title="Paragraphs and Line Breaks"></a>Paragraphs and Line Breaks</h3><p><strong>Paragraphs</strong></p>
+<p>HTML Tag: <code>&lt;p&gt;</code></p>
+<p>One or more blank lines. (A blank line is a line containing nothing but <strong>spaces</strong> or <strong>tabs</strong> is considered blank.)</p>
+<p>Code:</p>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">This will be</span><br><span class="line">inline.</span><br><span class="line"></span><br><span class="line">This is second paragraph.</span><br></pre></td></tr></table></figure>
+
+<p>Preview:</p>
+<hr>
+<p>This will be<br>inline.</p>
+<p>This is second paragraph.</p>
+<h2 id="Line-Breaks"><a href="#Line-Breaks" class="headerlink" title="Line Breaks"></a>Line Breaks</h2><p>HTML Tag: <code>&lt;br /&gt;</code></p>
+<p>End a line with <strong>two or more spaces</strong>.</p>
+<p>Code:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">This will be not</span><br><span class="line">inline.</span><br></pre></td></tr></table></figure>
+
+<p>Preview:</p>
+<hr>
+<p>This will be not<br>inline.</p>
+<hr>
+<blockquote>
+<h2 id="This-is-a-header"><a href="#This-is-a-header" class="headerlink" title="This is a header"></a>This is a header</h2><ol>
+<li>This is the first list item.</li>
+<li>This is the second list item.</li>
+</ol>
+<p>Here’s some example code:</p>
+<pre><code>  return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre>
+</blockquote>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">&#x27;redcarpet&#x27;</span></span><br><span class="line">markdown = <span class="title class_">Redcarpet</span>.new(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
+
+<p><img src="/images/logo.png" alt="potato"></p>
+<table>
+    <tr>
+        <td>Foo</td>
+        <td>Foo</td>
+        <td>Foo</td>
+        <td>Foo</td>
+    </tr>
+</table>
+
+<p><span><strong>Work</strong></span></p>
+<div>
+    **No Work**
+</div>
+
+        
+  </div>
+</article>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    copyright &copy;
+    
+    
+    2023
+    Gyeonghun Park
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">홈</a></li><!--
+     --><!--
+       --><li><a href="/about/">소개</a></li><!--
+     --><!--
+       --><li><a href="/archives/">글 목록</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/Gyeonghun-Park">프로젝트</a></li><!--
+     --><!--
+       --><li><a href="/categories/">카테고리</a></li><!--
+     --><!--
+       --><li><a href="/search/">검색</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
